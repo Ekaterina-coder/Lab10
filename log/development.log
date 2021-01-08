@@ -1,0 +1,609 @@
+Started GET "/3asd" for ::1 at 2020-12-08 00:31:57 +0300
+  [1m[35m (2.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+ActionController::RoutingError (No route matches [GET] "/3asd"):
+  
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.7) lib/puma/configuration.rb:228:in `call'
+puma (4.3.7) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.7) lib/puma/server.rb:472:in `process_client'
+puma (4.3.7) lib/puma/server.rb:328:in `block in run'
+puma (4.3.7) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/3asd" for ::1 at 2020-12-08 00:32:00 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/3asd"):
+  
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.7) lib/puma/configuration.rb:228:in `call'
+puma (4.3.7) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.7) lib/puma/server.rb:472:in `process_client'
+puma (4.3.7) lib/puma/server.rb:328:in `block in run'
+puma (4.3.7) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/3" for ::1 at 2020-12-08 00:32:03 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/3"):
+  
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.7) lib/puma/configuration.rb:228:in `call'
+puma (4.3.7) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.7) lib/puma/server.rb:472:in `process_client'
+puma (4.3.7) lib/puma/server.rb:328:in `block in run'
+puma (4.3.7) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/" for ::1 at 2020-12-08 00:32:03 +0300
+  
+AbstractController::ActionNotFound (The action 'index' could not be found for IndexController):
+  
+actionpack (6.0.3.4) lib/abstract_controller/base.rb:131:in `process'
+actionview (6.0.3.4) lib/action_view/rendering.rb:39:in `process'
+actionpack (6.0.3.4) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (6.0.3.4) lib/action_controller/metal.rb:254:in `dispatch'
+actionpack (6.0.3.4) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (6.0.3.4) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.0.3.4) lib/action_dispatch/journey/router.rb:49:in `block in serve'
+actionpack (6.0.3.4) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.0.3.4) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.0.3.4) lib/action_dispatch/routing/route_set.rb:834:in `call'
+rack (2.2.3) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/cookies.rb:648:in `call'
+activerecord (6.0.3.4) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.3.4) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.7) lib/puma/configuration.rb:228:in `call'
+puma (4.3.7) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.7) lib/puma/server.rb:472:in `process_client'
+puma (4.3.7) lib/puma/server.rb:328:in `block in run'
+puma (4.3.7) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/" for ::1 at 2020-12-08 00:32:24 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by IndexController#input as HTML
+  Rendering index/input.html.erb within layouts/application
+  Rendered index/input.html.erb within layouts/application (Duration: 1.2ms | Allocations: 240)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/ivangorshkov/Desktop/Ekat/laba 10/proxy/public/packs
+[Webpacker] Hash: 15d1bb7b54cf6326b9ba
+Version: webpack 4.44.2
+Time: 1506ms
+Built at: 12/08/2020 12:32:28 AM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-9afcbb5693aa87623e69.js    124 KiB  application  [emitted] [immutable]  application
+js/application-9afcbb5693aa87623e69.js.map    139 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-9afcbb5693aa87623e69.js js/application-9afcbb5693aa87623e69.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 749 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+Completed 200 OK in 3379ms (Views: 3378.1ms | ActiveRecord: 0.0ms | Allocations: 20174)
+
+
+Started GET "/data?n=20&side=server" for ::1 at 2020-12-08 00:32:33 +0300
+Processing by IndexController#view as HTML
+  Parameters: {"n"=>"20", "side"=>"server"}
+Completed 500 Internal Server Error in 299ms (ActiveRecord: 0.0ms | Allocations: 1350)
+
+
+  
+Errno::ENOENT (No such file or directory @ rb_sysopen - /Users/ivangorshkov/Desktop/Ekat/laba 10/proxy/public/converter.xslt):
+  
+app/controllers/index_controller.rb:33:in `read'
+app/controllers/index_controller.rb:33:in `xslt_transform'
+app/controllers/index_controller.rb:12:in `view'
+Started GET "/" for ::1 at 2020-12-08 00:32:44 +0300
+Processing by IndexController#input as HTML
+  Rendering index/input.html.erb within layouts/application
+  Rendered index/input.html.erb within layouts/application (Duration: 0.5ms | Allocations: 74)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 11ms (Views: 10.2ms | ActiveRecord: 0.0ms | Allocations: 4155)
+
+
+Started GET "/data?n=23&side=client-with-xslt" for ::1 at 2020-12-08 00:32:48 +0300
+Processing by IndexController#view as HTML
+  Parameters: {"n"=>"23", "side"=>"client-with-xslt"}
+Completed 200 OK in 7ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 957)
+
+
+Started GET "/browser_transform.xslt" for ::1 at 2020-12-08 00:32:48 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/browser_transform.xslt"):
+  
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.7) lib/puma/configuration.rb:228:in `call'
+puma (4.3.7) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.7) lib/puma/server.rb:472:in `process_client'
+puma (4.3.7) lib/puma/server.rb:328:in `block in run'
+puma (4.3.7) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/data?n=20&side=client" for ::1 at 2020-12-08 00:32:53 +0300
+Processing by IndexController#view as HTML
+  Parameters: {"n"=>"20", "side"=>"client"}
+Completed 200 OK in 5ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 926)
+
+
+Started GET "/data?n=23&side=server" for ::1 at 2020-12-08 00:33:56 +0300
+Processing by IndexController#view as HTML
+  Parameters: {"n"=>"23", "side"=>"server"}
+  Rendering index/view.html.erb within layouts/application
+  Rendering inline template
+  Rendered inline template (Duration: 0.5ms | Allocations: 95)
+  Rendered index/view.html.erb within layouts/application (Duration: 11.2ms | Allocations: 2959)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 26ms (Views: 18.3ms | ActiveRecord: 0.0ms | Allocations: 7766)
+
+
+Started GET "/data?n=20&side=client-with-xslt" for ::1 at 2020-12-08 00:34:01 +0300
+Processing by IndexController#view as HTML
+  Parameters: {"n"=>"20", "side"=>"client-with-xslt"}
+Completed 200 OK in 5ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 960)
+
+
+Started GET "/" for ::1 at 2020-12-08 00:40:00 +0300
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by IndexController#input as HTML
+  Rendering index/input.html.erb within layouts/application
+  Rendered index/input.html.erb within layouts/application (Duration: 2.6ms | Allocations: 377)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 83ms (Views: 77.1ms | ActiveRecord: 0.0ms | Allocations: 15391)
+
+
+Started GET "/data?n=234234&side=server" for ::1 at 2020-12-08 00:40:05 +0300
+Processing by IndexController#view as HTML
+  Parameters: {"n"=>"234234", "side"=>"server"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 854)
+
+
+  
+Errno::ECONNREFUSED (Failed to open TCP connection to localhost:3001 (Connection refused - connect(2) for "localhost" port 3001)):
+  
+app/controllers/index_controller.rb:10:in `view'
+Started GET "/data?n=234234&side=server" for ::1 at 2020-12-08 00:40:28 +0300
+Processing by IndexController#view as HTML
+  Parameters: {"n"=>"234234", "side"=>"server"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 848)
+
+
+  
+Errno::ECONNREFUSED (Failed to open TCP connection to localhost:3001 (Connection refused - connect(2) for "localhost" port 3001)):
+  
+app/controllers/index_controller.rb:10:in `view'
+Started GET "/data?n=234234&side=server" for ::1 at 2020-12-08 00:40:30 +0300
+Processing by IndexController#view as HTML
+  Parameters: {"n"=>"234234", "side"=>"server"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 841)
+
+
+  
+Errno::ECONNREFUSED (Failed to open TCP connection to localhost:3001 (Connection refused - connect(2) for "localhost" port 3001)):
+  
+app/controllers/index_controller.rb:10:in `view'
+Started GET "/data?n=234234&side=server" for ::1 at 2020-12-08 00:40:31 +0300
+Processing by IndexController#view as HTML
+  Parameters: {"n"=>"234234", "side"=>"server"}
+  Rendering index/view.html.erb within layouts/application
+  Rendering inline template
+  Rendered inline template (Duration: 0.2ms | Allocations: 148)
+  Rendered index/view.html.erb within layouts/application (Duration: 8.9ms | Allocations: 2979)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 442ms (Views: 23.7ms | ActiveRecord: 0.0ms | Allocations: 7734)
+
+
+Started GET "/index/input" for ::1 at 2020-12-08 00:40:36 +0300
+Processing by IndexController#input as HTML
+  Rendering index/input.html.erb within layouts/application
+  Rendered index/input.html.erb within layouts/application (Duration: 0.2ms | Allocations: 74)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 11ms (Views: 9.7ms | ActiveRecord: 0.0ms | Allocations: 3979)
+
+
+Started GET "/data?n=12&side=server" for ::1 at 2020-12-08 00:40:40 +0300
+Processing by IndexController#view as HTML
+  Parameters: {"n"=>"12", "side"=>"server"}
+  Rendering index/view.html.erb within layouts/application
+  Rendering inline template
+  Rendered inline template (Duration: 0.2ms | Allocations: 96)
+  Rendered index/view.html.erb within layouts/application (Duration: 0.6ms | Allocations: 213)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 12ms (Views: 6.0ms | ActiveRecord: 0.0ms | Allocations: 4805)
+
+
+Started GET "/index/input" for ::1 at 2020-12-08 00:40:42 +0300
+Processing by IndexController#input as HTML
+  Rendering index/input.html.erb within layouts/application
+  Rendered index/input.html.erb within layouts/application (Duration: 0.2ms | Allocations: 73)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 12ms (Views: 10.6ms | ActiveRecord: 0.0ms | Allocations: 3977)
+
+
+Started GET "/data?n=&side=client-with-xslt" for ::1 at 2020-12-08 00:40:44 +0300
+Processing by IndexController#view as HTML
+  Parameters: {"n"=>"", "side"=>"client-with-xslt"}
+Completed 200 OK in 5ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 963)
+
+
+Started GET "/index/input" for ::1 at 2020-12-08 00:40:45 +0300
+Processing by IndexController#input as HTML
+  Rendering index/input.html.erb within layouts/application
+  Rendered index/input.html.erb within layouts/application (Duration: 0.3ms | Allocations: 73)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 9ms (Views: 8.3ms | ActiveRecord: 0.0ms | Allocations: 3978)
+
+
+Started GET "/data?n=34&side=server" for ::1 at 2020-12-08 00:40:58 +0300
+Processing by IndexController#view as HTML
+  Parameters: {"n"=>"34", "side"=>"server"}
+  Rendering index/view.html.erb within layouts/application
+  Rendering inline template
+  Rendered inline template (Duration: 0.2ms | Allocations: 100)
+  Rendered index/view.html.erb within layouts/application (Duration: 0.7ms | Allocations: 217)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 23ms (Views: 16.7ms | ActiveRecord: 0.0ms | Allocations: 4818)
+
+
+Started GET "/index/input" for ::1 at 2020-12-08 00:43:28 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by IndexController#input as HTML
+  Rendering index/input.html.erb within layouts/application
+  Rendered index/input.html.erb within layouts/application (Duration: 0.3ms | Allocations: 75)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 9ms (Views: 8.4ms | ActiveRecord: 0.0ms | Allocations: 4091)
+
+
+Started GET "/data?n=pdf&side=server" for ::1 at 2020-12-08 00:43:32 +0300
+Processing by IndexController#view as HTML
+  Parameters: {"n"=>"pdf", "side"=>"server"}
+  Rendering index/view.html.erb within layouts/application
+  Rendering inline template
+  Rendered inline template (Duration: 0.2ms | Allocations: 72)
+  Rendered index/view.html.erb within layouts/application (Duration: 0.6ms | Allocations: 191)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 11ms (Views: 6.6ms | ActiveRecord: 0.0ms | Allocations: 4787)
+
+
+Started GET "/index/input" for ::1 at 2020-12-08 00:43:33 +0300
+Processing by IndexController#input as HTML
+  Rendering index/input.html.erb within layouts/application
+  Rendered index/input.html.erb within layouts/application (Duration: 0.2ms | Allocations: 73)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 8ms (Views: 7.1ms | ActiveRecord: 0.0ms | Allocations: 3980)
+
+
+Started GET "/data?n=23234&side=server" for ::1 at 2020-12-08 00:43:40 +0300
+Processing by IndexController#view as HTML
+  Parameters: {"n"=>"23234", "side"=>"server"}
+  Rendering index/view.html.erb within layouts/application
+  Rendering inline template
+  Rendered inline template (Duration: 0.2ms | Allocations: 128)
+  Rendered index/view.html.erb within layouts/application (Duration: 0.5ms | Allocations: 245)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 28ms (Views: 6.8ms | ActiveRecord: 0.0ms | Allocations: 4837)
+
+
+Started GET "/index/input" for ::1 at 2020-12-08 00:43:41 +0300
+Processing by IndexController#input as HTML
+  Rendering index/input.html.erb within layouts/application
+  Rendered index/input.html.erb within layouts/application (Duration: 0.2ms | Allocations: 73)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 10ms (Views: 9.5ms | ActiveRecord: 0.0ms | Allocations: 3980)
+
+
+Started GET "/data?n=23&side=client-with-xslt" for ::1 at 2020-12-08 00:43:44 +0300
+Processing by IndexController#view as HTML
+  Parameters: {"n"=>"23", "side"=>"client-with-xslt"}
+Completed 200 OK in 4ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 965)
+
+
+Started GET "/index/input" for ::1 at 2020-12-08 00:43:46 +0300
+Processing by IndexController#input as HTML
+  Rendering index/input.html.erb within layouts/application
+  Rendered index/input.html.erb within layouts/application (Duration: 0.2ms | Allocations: 73)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 19ms (Views: 17.5ms | ActiveRecord: 0.0ms | Allocations: 3986)
+
+
+Started GET "/data?n=23&side=client" for ::1 at 2020-12-08 00:43:49 +0300
+Processing by IndexController#view as HTML
+  Parameters: {"n"=>"23", "side"=>"client"}
+Completed 200 OK in 9ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 928)
+
+
+Started GET "/data?n=jh&side=server" for ::1 at 2020-12-08 00:43:55 +0300
+Processing by IndexController#view as HTML
+  Parameters: {"n"=>"jh", "side"=>"server"}
+  Rendering index/view.html.erb within layouts/application
+  Rendering inline template
+  Rendered inline template (Duration: 0.2ms | Allocations: 71)
+  Rendered index/view.html.erb within layouts/application (Duration: 0.5ms | Allocations: 188)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 13ms (Views: 6.2ms | ActiveRecord: 0.0ms | Allocations: 4785)
+
+
+Started GET "/index/input" for ::1 at 2020-12-08 00:43:56 +0300
+Processing by IndexController#input as HTML
+  Rendering index/input.html.erb within layouts/application
+  Rendered index/input.html.erb within layouts/application (Duration: 0.2ms | Allocations: 73)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 11ms (Views: 9.7ms | ActiveRecord: 0.0ms | Allocations: 3977)
+
+
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (5.2ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (1.7ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.7ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Create (1.1ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2020-12-07 21:46:49.173817"], ["updated_at", "2020-12-07 21:46:49.173817"]]
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/" for ::1 at 2020-12-08 00:47:44 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by IndexController#input as HTML
+  Rendering index/input.html.erb within layouts/application
+  Rendered index/input.html.erb within layouts/application (Duration: 0.2ms | Allocations: 75)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 13ms (Views: 12.6ms | ActiveRecord: 0.0ms | Allocations: 4095)
+
+
+Started GET "/data?n=34&side=client-with-xslt" for ::1 at 2020-12-08 00:47:49 +0300
+Processing by IndexController#view as HTML
+  Parameters: {"n"=>"34", "side"=>"client-with-xslt"}
+Completed 200 OK in 7ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 963)
+
+
+Started GET "/" for ::1 at 2020-12-08 00:48:24 +0300
+Processing by IndexController#input as HTML
+  Rendering index/input.html.erb within layouts/application
+  Rendered index/input.html.erb within layouts/application (Duration: 0.2ms | Allocations: 73)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 17ms (Views: 16.2ms | ActiveRecord: 0.0ms | Allocations: 3974)
+
+
+Started GET "/data?n=&side=client-with-xslt" for ::1 at 2020-12-08 00:48:27 +0300
+Processing by IndexController#view as HTML
+  Parameters: {"n"=>"", "side"=>"client-with-xslt"}
+Completed 200 OK in 6ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 958)
+
+
+Started GET "/data?n=34&side=server" for ::1 at 2020-12-08 00:48:30 +0300
+Processing by IndexController#view as HTML
+  Parameters: {"n"=>"34", "side"=>"server"}
+  Rendering index/view.html.erb within layouts/application
+  Rendering inline template
+  Rendered inline template (Duration: 0.2ms | Allocations: 103)
+  Rendered index/view.html.erb within layouts/application (Duration: 0.6ms | Allocations: 222)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 14ms (Views: 5.7ms | ActiveRecord: 0.0ms | Allocations: 4810)
+
+
+Started GET "/index/input" for ::1 at 2020-12-08 00:48:31 +0300
+Processing by IndexController#input as HTML
+  Rendering index/input.html.erb within layouts/application
+  Rendered index/input.html.erb within layouts/application (Duration: 0.2ms | Allocations: 73)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 7ms (Views: 6.6ms | ActiveRecord: 0.0ms | Allocations: 3977)
+
+
+Started GET "/data?n=234&side=client-with-xslt" for ::1 at 2020-12-08 00:48:36 +0300
+Processing by IndexController#view as HTML
+  Parameters: {"n"=>"234", "side"=>"client-with-xslt"}
+Completed 200 OK in 6ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 961)
+
+
+Started GET "/index/input" for ::1 at 2020-12-08 00:49:32 +0300
+Processing by IndexController#input as HTML
+  Rendering index/input.html.erb within layouts/application
+  Rendered index/input.html.erb within layouts/application (Duration: 0.4ms | Allocations: 73)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 10ms (Views: 9.0ms | ActiveRecord: 0.0ms | Allocations: 3974)
+
+
+Started GET "/data?n=34&side=client-with-xslt" for ::1 at 2020-12-08 00:49:35 +0300
+Processing by IndexController#view as HTML
+  Parameters: {"n"=>"34", "side"=>"client-with-xslt"}
+Completed 200 OK in 13ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 968)
+
+
+Started GET "/data?n=234&side=server" for ::1 at 2020-12-08 00:50:03 +0300
+Processing by IndexController#view as HTML
+  Parameters: {"n"=>"234", "side"=>"server"}
+  Rendering index/view.html.erb within layouts/application
+  Rendering inline template
+  Rendered inline template (Duration: 0.2ms | Allocations: 108)
+  Rendered index/view.html.erb within layouts/application (Duration: 0.6ms | Allocations: 225)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 20ms (Views: 13.2ms | ActiveRecord: 0.0ms | Allocations: 4817)
+
+
+Started GET "/data?n=34&side=client-with-xslt" for ::1 at 2020-12-08 00:50:20 +0300
+Processing by IndexController#view as HTML
+  Parameters: {"n"=>"34", "side"=>"client-with-xslt"}
+Completed 200 OK in 6ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 962)
+
+
+Started GET "/data?n=34&side=client-with-xslt" for ::1 at 2020-12-08 00:50:27 +0300
+Processing by IndexController#view as HTML
+  Parameters: {"n"=>"34", "side"=>"client-with-xslt"}
+Completed 200 OK in 5ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 958)
+
+
+Started GET "/data?n=34&side=client-with-xslt" for ::1 at 2020-12-08 00:50:28 +0300
+Processing by IndexController#view as HTML
+  Parameters: {"n"=>"34", "side"=>"client-with-xslt"}
+Completed 200 OK in 6ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 955)
+
+
+Started GET "/data?n=34&side=client-with-xslt" for ::1 at 2020-12-08 00:50:48 +0300
+Processing by IndexController#view as HTML
+  Parameters: {"n"=>"34", "side"=>"client-with-xslt"}
+Completed 200 OK in 7ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 822)
+
+
+Started GET "/data?n=34&side=client-with-xslt" for ::1 at 2020-12-08 00:51:32 +0300
+Processing by IndexController#view as HTML
+  Parameters: {"n"=>"34", "side"=>"client-with-xslt"}
+Completed 200 OK in 7ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 822)
+
+
+Started GET "/data?n=34&side=client-with-xslt" for ::1 at 2020-12-08 00:51:33 +0300
+Processing by IndexController#view as HTML
+  Parameters: {"n"=>"34", "side"=>"client-with-xslt"}
+Completed 200 OK in 7ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 822)
+
+
+Started GET "/data?n=34&side=client-with-xslt" for ::1 at 2020-12-08 00:51:34 +0300
+Processing by IndexController#view as HTML
+  Parameters: {"n"=>"34", "side"=>"client-with-xslt"}
+Completed 200 OK in 6ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 822)
+
+
+Started GET "/data?n=234&side=server" for ::1 at 2020-12-08 00:52:03 +0300
+Processing by IndexController#view as HTML
+  Parameters: {"n"=>"234", "side"=>"server"}
+  Rendering index/view.html.erb within layouts/application
+  Rendering inline template
+  Rendered inline template (Duration: 0.3ms | Allocations: 103)
+  Rendered index/view.html.erb within layouts/application (Duration: 0.8ms | Allocations: 220)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 14ms (Views: 8.9ms | ActiveRecord: 0.0ms | Allocations: 4689)
+
+
+Started GET "/data?n=234&side=server" for ::1 at 2020-12-08 00:52:20 +0300
+Processing by IndexController#view as HTML
+  Parameters: {"n"=>"234", "side"=>"server"}
+  Rendering index/view.html.erb within layouts/application
+  Rendering inline template
+  Rendered inline template (Duration: 0.2ms | Allocations: 103)
+  Rendered index/view.html.erb within layouts/application (Duration: 0.6ms | Allocations: 220)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 23ms (Views: 15.1ms | ActiveRecord: 0.0ms | Allocations: 4756)
+
+
