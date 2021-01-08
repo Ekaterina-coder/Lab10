@@ -1,0 +1,516 @@
+Started GET "/" for ::1 at 2020-12-07 23:54:50 +0300
+  [1m[35m (2.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by IndexController#index as HTML
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 354)
+
+
+Started GET "/" for ::1 at 2020-12-07 23:56:17 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by IndexController#index as HTML
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 225)
+
+
+Started GET "/" for ::1 at 2020-12-07 23:56:20 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by IndexController#index as HTML
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 225)
+
+
+Started GET "/" for ::1 at 2020-12-07 23:56:21 +0300
+Processing by IndexController#index as HTML
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 219)
+
+
+Started GET "/3" for ::1 at 2020-12-07 23:56:21 +0300
+  
+AbstractController::ActionNotFound (The action 'palindrome' could not be found for IndexController):
+  
+actionpack (6.0.3.4) lib/abstract_controller/base.rb:131:in `process'
+actionview (6.0.3.4) lib/action_view/rendering.rb:39:in `process'
+actionpack (6.0.3.4) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (6.0.3.4) lib/action_controller/metal.rb:254:in `dispatch'
+actionpack (6.0.3.4) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (6.0.3.4) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.0.3.4) lib/action_dispatch/journey/router.rb:49:in `block in serve'
+actionpack (6.0.3.4) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.0.3.4) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.0.3.4) lib/action_dispatch/routing/route_set.rb:834:in `call'
+rack (2.2.3) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/cookies.rb:648:in `call'
+activerecord (6.0.3.4) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.3.4) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.7) lib/puma/configuration.rb:228:in `call'
+puma (4.3.7) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.7) lib/puma/server.rb:472:in `process_client'
+puma (4.3.7) lib/puma/server.rb:328:in `block in run'
+puma (4.3.7) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/3" for ::1 at 2020-12-07 23:56:34 +0300
+  
+AbstractController::ActionNotFound (The action 'palindrome' could not be found for IndexController):
+  
+actionpack (6.0.3.4) lib/abstract_controller/base.rb:131:in `process'
+actionview (6.0.3.4) lib/action_view/rendering.rb:39:in `process'
+actionpack (6.0.3.4) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (6.0.3.4) lib/action_controller/metal.rb:254:in `dispatch'
+actionpack (6.0.3.4) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (6.0.3.4) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.0.3.4) lib/action_dispatch/journey/router.rb:49:in `block in serve'
+actionpack (6.0.3.4) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.0.3.4) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.0.3.4) lib/action_dispatch/routing/route_set.rb:834:in `call'
+rack (2.2.3) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/cookies.rb:648:in `call'
+activerecord (6.0.3.4) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.3.4) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.7) lib/puma/configuration.rb:228:in `call'
+puma (4.3.7) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.7) lib/puma/server.rb:472:in `process_client'
+puma (4.3.7) lib/puma/server.rb:328:in `block in run'
+puma (4.3.7) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/3" for ::1 at 2020-12-07 23:56:35 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by IndexController#palindrome as HTML
+  Parameters: {"val"=>"3"}
+Completed 500 Internal Server Error in 110ms (ActiveRecord: 0.0ms | Allocations: 48958)
+
+
+  
+NoMethodError (undefined method `is_number?' for #<IndexController:0x00007fbbae222e20>):
+  
+app/controllers/index_controller.rb:11:in `palindrome'
+Started GET "/3" for ::1 at 2020-12-07 23:56:52 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by IndexController#palindrome as HTML
+  Parameters: {"val"=>"3"}
+Completed 200 OK in 9ms (Views: 2.7ms | ActiveRecord: 0.0ms | Allocations: 476)
+
+
+Started GET "/3" for ::1 at 2020-12-07 23:57:39 +0300
+Processing by IndexController#palindrome as HTML
+  Parameters: {"val"=>"3"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 466)
+
+
+Started GET "/3" for ::1 at 2020-12-07 23:57:40 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by IndexController#palindrome as HTML
+  Parameters: {"val"=>"3"}
+Completed 500 Internal Server Error in 201ms (ActiveRecord: 0.0ms | Allocations: 96422)
+
+
+  
+NameError (undefined local variable or method `xml' for #<IndexController:0x00007fbbb35083b0>):
+  
+app/controllers/index_controller.rb:34:in `palindrome'
+Started GET "/3" for ::1 at 2020-12-07 23:58:15 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by IndexController#palindrome as HTML
+  Parameters: {"val"=>"3"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 473)
+
+
+Started GET "/3" for ::1 at 2020-12-07 23:58:16 +0300
+Processing by IndexController#palindrome as HTML
+  Parameters: {"val"=>"3"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 466)
+
+
+Started GET "/3" for ::1 at 2020-12-07 23:59:32 +0300
+Processing by IndexController#palindrome as HTML
+  Parameters: {"val"=>"3"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 466)
+
+
+Started GET "/3asd" for ::1 at 2020-12-07 23:59:35 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by IndexController#palindrome as HTML
+  Parameters: {"val"=>"3asd"}
+Completed 500 Internal Server Error in 205ms (ActiveRecord: 0.0ms | Allocations: 96115)
+
+
+  
+NameError (undefined local variable or method `body' for #<IndexController:0x00007fbbb36f9408>):
+  
+app/controllers/index_controller.rb:41:in `block (2 levels) in palindrome'
+app/controllers/index_controller.rb:40:in `block in palindrome'
+app/controllers/index_controller.rb:39:in `new'
+app/controllers/index_controller.rb:39:in `palindrome'
+Started GET "/3asd" for ::1 at 2020-12-07 23:59:43 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by IndexController#palindrome as HTML
+  Parameters: {"val"=>"3asd"}
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 552)
+
+
+Started GET "/3asd" for ::1 at 2020-12-07 23:59:44 +0300
+Processing by IndexController#palindrome as HTML
+  Parameters: {"val"=>"3asd"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 576)
+
+
+Started GET "/3asd" for ::1 at 2020-12-08 00:00:22 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by IndexController#palindrome as HTML
+  Parameters: {"val"=>"3asd"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 551)
+
+
+Started GET "/3asd" for ::1 at 2020-12-08 00:00:23 +0300
+Processing by IndexController#palindrome as HTML
+  Parameters: {"val"=>"3asd"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 592)
+
+
+Started GET "/3asd" for ::1 at 2020-12-08 00:00:43 +0300
+Processing by IndexController#palindrome as HTML
+  Parameters: {"val"=>"3asd"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 592)
+
+
+Started GET "/3asd" for ::1 at 2020-12-08 00:00:44 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by IndexController#palindrome as HTML
+  Parameters: {"val"=>"3asd"}
+Completed 500 Internal Server Error in 234ms (ActiveRecord: 0.0ms | Allocations: 96161)
+
+
+  
+NameError (undefined local variable or method `body' for #<IndexController:0x00007fbbb1bc6938>):
+  
+app/controllers/index_controller.rb:41:in `block (2 levels) in palindrome'
+app/controllers/index_controller.rb:40:in `block in palindrome'
+app/controllers/index_controller.rb:39:in `new'
+app/controllers/index_controller.rb:39:in `palindrome'
+Started GET "/3asd" for ::1 at 2020-12-08 00:01:11 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by IndexController#palindrome as HTML
+  Parameters: {"val"=>"3asd"}
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 551)
+
+
+Started GET "/3asd" for ::1 at 2020-12-08 00:01:12 +0300
+Processing by IndexController#palindrome as HTML
+  Parameters: {"val"=>"3asd"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 592)
+
+
+Started GET "/3asd" for ::1 at 2020-12-08 00:01:39 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by IndexController#palindrome as HTML
+  Parameters: {"val"=>"3asd"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 597)
+
+
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (5.2ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (1.6ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mActiveRecord::InternalMetadata Load (1.1ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.8ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2020-12-07 21:04:10.890560"], ["updated_at", "2020-12-07 21:04:10.890560"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "//20" for ::1 at 2020-12-08 00:32:34 +0300
+  [1m[35m (2.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by IndexController#palindrome as */*
+  Parameters: {"val"=>"20"}
+Completed 200 OK in 3ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 744)
+
+
+Started GET "//23" for ::1 at 2020-12-08 00:32:48 +0300
+Processing by IndexController#palindrome as */*
+  Parameters: {"val"=>"23"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 617)
+
+
+Started GET "//20" for ::1 at 2020-12-08 00:32:53 +0300
+Processing by IndexController#palindrome as */*
+  Parameters: {"val"=>"20"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 608)
+
+
+Started GET "//23" for ::1 at 2020-12-08 00:33:56 +0300
+Processing by IndexController#palindrome as */*
+  Parameters: {"val"=>"23"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 617)
+
+
+Started GET "//20" for ::1 at 2020-12-08 00:34:01 +0300
+Processing by IndexController#palindrome as */*
+  Parameters: {"val"=>"20"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 608)
+
+
+Started GET "//234234" for ::1 at 2020-12-08 00:40:31 +0300
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by IndexController#palindrome as */*
+  Parameters: {"val"=>"234234"}
+Completed 200 OK in 141ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 473492)
+
+
+Started GET "//12" for ::1 at 2020-12-08 00:40:40 +0300
+Processing by IndexController#palindrome as */*
+  Parameters: {"val"=>"12"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 592)
+
+
+Started GET "//" for ::1 at 2020-12-08 00:40:44 +0300
+Processing by IndexController#index as */*
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 162)
+
+
+Started GET "//34" for ::1 at 2020-12-08 00:40:58 +0300
+Processing by IndexController#palindrome as */*
+  Parameters: {"val"=>"34"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 692)
+
+
+Started GET "//pdf" for ::1 at 2020-12-08 00:43:32 +0300
+Processing by IndexController#palindrome as */*
+  Parameters: {"val"=>"pdf"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 534)
+
+
+Started GET "//23234" for ::1 at 2020-12-08 00:43:40 +0300
+Processing by IndexController#palindrome as */*
+  Parameters: {"val"=>"23234"}
+Completed 200 OK in 15ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 48402)
+
+
+Started GET "//23" for ::1 at 2020-12-08 00:43:44 +0300
+Processing by IndexController#palindrome as */*
+  Parameters: {"val"=>"23"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 617)
+
+
+Started GET "//23" for ::1 at 2020-12-08 00:43:49 +0300
+Processing by IndexController#palindrome as */*
+  Parameters: {"val"=>"23"}
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 617)
+
+
+Started GET "//jh" for ::1 at 2020-12-08 00:43:55 +0300
+Processing by IndexController#palindrome as */*
+  Parameters: {"val"=>"jh"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 534)
+
+
+Started GET "//" for ::1 at 2020-12-08 00:46:54 +0300
+Started GET "//" for ::1 at 2020-12-08 00:46:54 +0300
+Processing by IndexController#index as */*
+Completed 200 OK in 3ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 162)
+
+
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by IndexController#index as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 162)
+
+
+Started GET "//" for ::1 at 2020-12-08 00:47:30 +0300
+Processing by IndexController#index as */*
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 162)
+
+
+Started GET "//34" for ::1 at 2020-12-08 00:47:49 +0300
+Processing by IndexController#palindrome as */*
+  Parameters: {"val"=>"34"}
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 692)
+
+
+Started GET "//" for ::1 at 2020-12-08 00:48:27 +0300
+Processing by IndexController#index as */*
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 162)
+
+
+Started GET "//34" for ::1 at 2020-12-08 00:48:30 +0300
+Processing by IndexController#palindrome as */*
+  Parameters: {"val"=>"34"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 692)
+
+
+Started GET "//234" for ::1 at 2020-12-08 00:48:36 +0300
+Processing by IndexController#palindrome as */*
+  Parameters: {"val"=>"234"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 1202)
+
+
+Started GET "//" for ::1 at 2020-12-08 00:48:59 +0300
+Started GET "//34" for ::1 at 2020-12-08 00:48:59 +0300
+Processing by IndexController#index as */*
+Processing by IndexController#palindrome as */*
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 409)
+
+
+  Parameters: {"val"=>"34"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 692)
+
+
+Started GET "//34" for ::1 at 2020-12-08 00:49:35 +0300
+Processing by IndexController#palindrome as */*
+  Parameters: {"val"=>"34"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 692)
+
+
+Started GET "//234" for ::1 at 2020-12-08 00:50:03 +0300
+Processing by IndexController#palindrome as */*
+  Parameters: {"val"=>"234"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 1202)
+
+
+Started GET "//34" for ::1 at 2020-12-08 00:50:20 +0300
+Processing by IndexController#palindrome as */*
+  Parameters: {"val"=>"34"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 692)
+
+
+Started GET "//34" for ::1 at 2020-12-08 00:50:27 +0300
+Processing by IndexController#palindrome as */*
+  Parameters: {"val"=>"34"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 692)
+
+
+Started GET "//34" for ::1 at 2020-12-08 00:50:28 +0300
+Processing by IndexController#palindrome as */*
+  Parameters: {"val"=>"34"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 692)
+
+
+Started GET "//34" for ::1 at 2020-12-08 00:50:48 +0300
+Processing by IndexController#palindrome as */*
+  Parameters: {"val"=>"34"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 692)
+
+
+Started GET "//34" for ::1 at 2020-12-08 00:51:02 +0300
+Started GET "//" for ::1 at 2020-12-08 00:51:02 +0300
+Processing by IndexController#palindrome as */*
+  Parameters: {"val"=>"34"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 692)
+
+
+Processing by IndexController#index as */*
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 162)
+
+
+Started GET "//" for ::1 at 2020-12-08 00:51:06 +0300
+Started GET "//34" for ::1 at 2020-12-08 00:51:06 +0300
+Processing by IndexController#index as */*
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 162)
+
+
+Processing by IndexController#palindrome as */*
+  Parameters: {"val"=>"34"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 692)
+
+
+Started GET "//34" for ::1 at 2020-12-08 00:51:32 +0300
+Processing by IndexController#palindrome as */*
+  Parameters: {"val"=>"34"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 692)
+
+
+Started GET "//34" for ::1 at 2020-12-08 00:51:33 +0300
+Processing by IndexController#palindrome as */*
+  Parameters: {"val"=>"34"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 692)
+
+
+Started GET "//34" for ::1 at 2020-12-08 00:51:34 +0300
+Processing by IndexController#palindrome as */*
+  Parameters: {"val"=>"34"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 692)
+
+
+Started GET "//" for ::1 at 2020-12-08 00:51:52 +0300
+Started GET "//34" for ::1 at 2020-12-08 00:51:52 +0300
+Processing by IndexController#palindrome as */*
+  Parameters: {"val"=>"34"}
+Processing by IndexController#index as */*
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 162)
+
+
+Completed 200 OK in 14ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 695)
+
+
+Started GET "//234" for ::1 at 2020-12-08 00:52:03 +0300
+Processing by IndexController#palindrome as */*
+  Parameters: {"val"=>"234"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 1202)
+
+
+Started GET "//234" for ::1 at 2020-12-08 00:52:20 +0300
+Processing by IndexController#palindrome as */*
+  Parameters: {"val"=>"234"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 1202)
+
+
